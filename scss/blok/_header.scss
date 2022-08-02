@@ -1,0 +1,140 @@
+.header
+{
+    background-color: #000000;
+    &__inner
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 28px;
+    }
+    &__menyu
+    {
+        display: none;
+    }
+    &__menyu1
+    {
+        display: none;
+    }
+    &__list
+    {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0 auto;
+    }
+    &__items
+    {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    &__image
+    {
+        display: block;
+        margin-left: 10px;
+    }
+    &__jpg
+    {
+        display: block;
+        margin-left: 90px;
+    }
+    &__link
+    {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-left: 40px;
+    }
+    &__linkes
+    {
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin-left: 183px;
+    }
+    &__links
+    {
+        background: #FFFFFF;
+        border-radius: 40px;
+        background: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        color: #000000;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        text-decoration: none;
+        margin-left: 72px;
+        padding: 12px 32px;
+    }
+}
+@media screen and(max-width:396px) {
+    .header
+    {  
+        &__div
+        {
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+        &__image
+        {
+            display: none;
+        }
+        &__menyu
+        {
+            display: block;
+            justify-content: center;
+            align-items: flex-end;
+        }
+        &__menyu1
+        {
+            display: block;
+            justify-content: center;
+            align-items: flex-end;
+            margin-bottom: 6px;
+        }
+        &__jpg
+        {
+            margin-left: 18px;
+        }
+        &__link
+        {
+            display: none;
+        }
+        &__list
+        {
+            display: none;
+        }
+    }
+    
+}

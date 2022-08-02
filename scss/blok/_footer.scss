@@ -1,0 +1,50 @@
+.footer
+{
+    &__inner
+    {
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 29px 31px;
+    }
+    &__list
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item
+    {
+        list-style: none;
+        margin-left: 40px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+        color: #000000;
+         flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
+    @media screen and(max-width:610px) {
+        .footer
+        {
+            &__inner
+            {
+                display: block;
+            }
+            &__list
+            {
+                display: block;
+            }
+            &__logo
+            {
+                margin: 88px 95px;
+            }
+        }
+        
+    }
+}
